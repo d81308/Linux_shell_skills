@@ -18,7 +18,7 @@ zipfile=$backupfolder/all-database-$(date +%d-%m-%Y_%H-%M-%S).gz
 
 # Create a backup
 
-if /usr/local/mysql/bin/mysqldump -u root -p $DATABASE > $sqlfile ; then
+if /usr/local/mysql/bin/mysqldump -u root -pd9982951 $DATABASE > $sqlfile ; then
    echo 'Sql dump created'
     # Compress backup 
     if gzip -c $sqlfile > $zipfile; then
