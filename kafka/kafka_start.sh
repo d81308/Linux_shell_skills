@@ -1,3 +1,11 @@
+## start kafka in terminal
+# start zookeeper-server with zookeeper config
+/Users/jianlin/kafka_2.13-3.4.0/bin/zookeeper-server-start.sh /Users/jianlin/kafka_2.13-3.4.0/config/zookeeper.properties
+
+# start kafka-server with server config
+/Users/jianlin/kafka_2.13-3.4.0/bin/kafka-server-start.sh /Users/jianlin/kafka_2.13-3.4.0/config/server.properties
+
+#-------------------------------------------------------------------------------------------
 ## create topic
 #/Users/jianlin/kafka_2.13-3.4.0/bin/kafka-topics.sh --create --topic news --bootstrap-server localhost:9092
 
