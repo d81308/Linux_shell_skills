@@ -7,5 +7,5 @@
 
 
 ## read messenger from topic
-#/Users/jianlin/kafka_2.13-3.4.0/bin/kafka-console-consumer.sh --topic news --from-beginner --bootstrap-server localhost:9092
+#/Users/jianlin/kafka_2.13-3.4.0/bin/kafka-console-consumer.sh --topic news --from-beginning --bootstrap-server localhost:9092
 
