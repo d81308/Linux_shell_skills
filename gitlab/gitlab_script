@@ -1,0 +1,5 @@
+# JOB
+echo_task:
+  script:
+    - echo "first time using gitlab!"
+    
