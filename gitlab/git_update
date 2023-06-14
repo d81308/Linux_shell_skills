@@ -1,0 +1,36 @@
+# git clone branch in repository
+git clone -b prometheus-setup git@github.com:d81308/prometheus_grafana.git
+
+# check file and dir-check
+ls -al
+
+# show update items
+git status
+
+# action-done and wait for commit
+git add .
+git add -all
+
+# write the update commit
+git commit -m "add test_update file"
+
+# push to Github
+git push
+
+## if you use mac, and create .DS_Store file, can modify in config gitignore
+  # use vim editor
+  vim .gitignore
+  [add] .DS_Store
+  [save and quit]
+  
+  # check update
+  git status  # the .DS_Store has change
+  
+  # action-done and wait for commit
+  git add .gitignore
+  
+  # write the commit command
+  git commit -m "add .DS_Store into .gitignore"
+  
+  # check action log
+  git log
