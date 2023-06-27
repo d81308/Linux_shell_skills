@@ -16,6 +16,7 @@ git commit -m "add test_update file"
 
 # push to Github
 git push
+git push --set-upstream origin prometheus-AlertSlack
 
 ## if you use mac, and create .DS_Store file, can modify in config gitignore
   # use vim editor
